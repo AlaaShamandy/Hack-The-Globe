@@ -23,3 +23,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## Backend
+The Github repository for the backend API of this application is available [here](https://github.com/LaurierMantel/hack-the-globe-two-6ix)
