@@ -130,6 +130,7 @@ div.container {
     margin-top: 10px;
     font-size: 30px;
     border-radius: 30px;
+    color: #b11616;
 }
 
 </style>

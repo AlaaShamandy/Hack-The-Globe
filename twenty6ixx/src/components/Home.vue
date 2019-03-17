@@ -1,5 +1,10 @@
 <template>
   <div style="height: -webkit-fill-available;">
+
+    <div class="emergency">
+      If this is an emergency, please call 911
+    </div>
+
     <md-button @click="showModal = true" class="md-raised md-primary md-start">Get Started</md-button>
 
     <QuestionsModal v-if="showModal" @serviceClicked="serviceClicked" @close="showModal = false">
@@ -55,5 +60,15 @@ export default {
   top: 45%;
   background-color: #462d50!important;
   border-radius: 5px;
+}
+
+.emergency{
+    margin-top: 30px;
+    font-size: 40px;
+    background: bisque;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 20px;
+    display: -webkit-inline-box;
 }
 </style>

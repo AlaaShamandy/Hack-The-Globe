@@ -7,7 +7,7 @@
         </md-card-header>
 
         <md-card-content>
-          <img :src="'https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=300x200&markers=size:small%7Ccolor:red%7C'+shelter.latitude+','+shelter.longitude+'&key=AIzaSyAd3wtjLyr3jVGnZYrHiJVUiWJ9FMgGJEE'"/>
+          <img :src="'https://maps.googleapis.com/maps/api/staticmap?zoom=15&size=300x200&markers=size:small%7Ccolor:red%7C'+shelter.latitude+','+shelter.longitude+'&key=AIzaSyAd3wtjLyr3jVGnZYrHiJVUiWJ9FMgGJEE'"/>
         </md-card-content>
       </md-ripple>
     </md-card>
